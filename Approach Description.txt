@@ -1,0 +1,6 @@
+For this problem i used the simple approach. 
+	First i loaded the data (images, labels) into program meory.
+	After that i reduced the image size using the resize funtion from opencv and converted the labels into categories. 
+	I used the train_test_split function to split the data into train and validation sets. 
+	Later, I used the Resnet50(pre-trained) model to train the images. 
+	Also, i have provided the code to save and load the model.
